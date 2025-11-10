@@ -1,5 +1,6 @@
 import pytest
-from library_service import get_patron_status_report, add_book_to_catalog, borrow_book_by_patron, get_book_by_isbn
+from services.library_service import get_patron_status_report, add_book_to_catalog, borrow_book_by_patron
+from database import get_book_by_isbn
 
 
 def test_nonexistent_patron():

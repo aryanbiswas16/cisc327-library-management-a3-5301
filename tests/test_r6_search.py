@@ -1,5 +1,5 @@
 import pytest
-from library_service import add_book_to_catalog, search_books_in_catalog
+from services.library_service import add_book_to_catalog, search_books_in_catalog
 
 
 def test_search_books_in_catalog_valid_input():

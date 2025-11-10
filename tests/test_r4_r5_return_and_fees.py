@@ -1,5 +1,5 @@
 import pytest
-from library_service import return_book_by_patron, calculate_late_fee_for_book, add_book_to_catalog, borrow_book_by_patron
+from services.library_service import return_book_by_patron, calculate_late_fee_for_book, add_book_to_catalog, borrow_book_by_patron
 from database import get_book_by_isbn, insert_book, insert_borrow_record
 from datetime import datetime, timedelta
 # ---------------- R4: return_book_by_patron ----------------
