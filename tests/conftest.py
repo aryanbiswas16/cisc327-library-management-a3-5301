@@ -1,3 +1,10 @@
+import pytest
+
+
+@pytest.fixture(scope="session")
+def base_url():
+    # Default base URL where the Flask app will be running during tests
+    return "http://127.0.0.1:5000"
 """
 Pytest Configuration File
 
